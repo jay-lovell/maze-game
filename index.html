@@ -7,9 +7,12 @@
     <title>The Maze Game</title>
 </head>
 <body>
+  <div id="player"><img src="./Matt_icon.jpg"></div>
+  <div id="page">
   <div id="game-page">
-    <h2>The Maze Game</h2>
-  <div id="player"></div>
+    <h2>Help Matt reach the Duck!</h2>
+    <span id="timer">Timer will go here</span>
+    <button id="reset">reset</button>
     <div id="maze-area">
       <div class="maze-wall"></div>
       <div class="maze-wall"></div>
@@ -345,7 +348,7 @@
       <div class="maze-path"></div>
       <div class="maze-wall"></div>
       <div class="maze-path"></div>
-      <div class="maze-path"></div>
+      <div id="duck" class="maze-path"><img src="./duck.jpg"></div>
       <div class="maze-wall"></div>
       <div class="maze-wall"></div>
       <div class="maze-path"></div>
@@ -420,7 +423,7 @@
       <div class="maze-path"></div>
       <div class="maze-wall"></div>
     </div>
-  </div>
+  </div></div>
 
     <script src="main.js" module></script>
 </body>
